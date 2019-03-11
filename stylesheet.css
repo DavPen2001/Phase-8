@@ -75,7 +75,7 @@ body {
 	display:Flex;
 	width: calc(100%/2);
 	height: 100%;
-	background-image: url(images/image.png);
+	background-image: url(image.png);
 	justify-content: center;
 }
 
