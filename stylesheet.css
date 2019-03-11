@@ -1,0 +1,107 @@
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+
+.green {
+	display:Flex;
+	width: 100%;
+	height: 66%;
+	background-color: #008000;
+}
+
+.purple0 {
+	display: Flex;
+	width: calc(100%/3);
+	height: 100%;
+	background-color: #696969;
+	border-style: solid;
+}
+
+.purple1 {
+	display: Flex;
+	width: calc(100%/3);
+	height: 100%;
+	background-color: #696969;
+	border-style: solid;
+}
+
+.purple2 {
+	display: Flex;
+	width: calc(100%/3);
+	height: 100%;
+	background-color: #696969;
+	border-style: solid;
+}
+
+.lgreen {
+	display: Flex;
+	width: 100%;
+	height: calc(100%/3);
+	background-color:#ADFF2F;
+}
+
+.pink0{
+	display:block;
+	width: 100%;
+	height: calc(100%/2);
+	background-color: #3f2a14;
+}
+
+.pink1{
+	display:Block;
+  width: 100%;
+	height: calc(100%/2);
+	background-color: #3f2a14;
+}
+
+.pink2{
+	display:block;
+	width: 100%;
+	height: calc(100%/2);
+	background-color: #3f2a14;
+}
+
+.pink3{
+	display:block;
+	width: 100%;
+	height: calc(100%/2);
+	background-color: #3f2a14;
+}
+
+.transparent{
+	display:Flex;
+	width: calc(100%/2);
+	height: 100%;
+	background-image: url(images/image.png);
+	justify-content: center;
+}
+
+.row0{
+display: block;
+width:calc(100%/4);
+height:100%;
+}
+
+.row1{
+	display: block;
+	width:calc(100%/4);
+	height:100%;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict {
+	max-height: 80%;
+	max-width: 80%;
+}
+
+.pointer:hover {
+	cursor: pointer;
+}

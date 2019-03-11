@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Puzzle</title>
+		<link rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+			<div class="green">
+				<div class="transparent">
+				</div>
+
+					<div class="row0">
+				<div class="pink0 center">
+					<img src="images/turret.png" class="restrict pointer" onclick="nextImage4(this)">
+				</img>
+				</div>
+				<div class="pink1 center">
+					<img src="images/gun.png" class="restrict pointer" onclick="nextImage5(this)">
+				</img>
+				</div>
+			</div>
+
+				<div class="row1">
+				<div class="pink2 center">
+					<img src="images/turret2.png" class="restrict pointer" onclick="nextImage6(this)">
+				</img>
+				</div>
+				<div class="pink3 center">
+					<img src="images/arrow.png" class="restrict pointer" onclick="checkImages(this)">
+				</img>
+				</div>
+			</div>
+
+		</div>
+
+
+			<div class="lgreen">
+				<div class="purple0 center">
+					<img src="images/zero.png" class="restrict pointer" onclick="nextImage(this)" id="one">
+					<img>
+				</div>
+				<div class="purple1 center">
+					<img src="images/eight.png" class="restrict pointer" onclick="nextImage2(this)" id="two">
+					<img>
+				</div>
+				<div class="purple2 center">
+					<img src="images/nine.png" class="restrict pointer" onclick="nextImage3(this)" id="three">
+					<img>
+				</div>
+		</div>
+		<audio src="audio/portal.mp3" type="audio/mpeg" id="portal"></audio>
+		<script src="scripts.js"></script>
+	</body>
+</html>
