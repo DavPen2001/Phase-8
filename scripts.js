@@ -128,7 +128,7 @@ mySound = document.getElementById("portal");
 function checkImages(el){
 if (a.src.match("one.png") && b.src.match("two.png") && c.src.match("three.png")){
 mySound.play();
-setTimeout(redirect, 2000);
+setTimeout(redirect, 1000);
 } else {
   console.log("Jesus has returned")
 }
