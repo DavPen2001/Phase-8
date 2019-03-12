@@ -135,5 +135,5 @@ setTimeout(redirect, 2000);
 }
 
 function redirect(){
-  document.location.href = "https://google.com"
+  document.location.href = "https://rileybrady.github.io/phase8.2/"
 }
