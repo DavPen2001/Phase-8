@@ -126,7 +126,7 @@ c = document.getElementById("three");
 mySound = document.getElementById("portal");
 
 function checkImages(el){
-if (a.src.match("three.png") && b.src.match("one.png") && c.src.match("nine.png")){
+if (a.src.match("one.png") && b.src.match("two.png") && c.src.match("three.png")){
 mySound.play();
 setTimeout(redirect, 2000);
 } else {
