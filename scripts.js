@@ -126,11 +126,11 @@ c = document.getElementById("three");
 mySound = document.getElementById("portal");
 
 function checkImages(el){
-if (a.src.match("one.png") && b.src.match("two.png") && c.src.match("three.png")){
+if (a.src.match("three.png") && b.src.match("one.png") && c.src.match("nine.png")){
 mySound.play();
 setTimeout(redirect, 2000);
 } else {
-  console.log("super nibba has returned")
+  console.log("Jesus has returned")
 }
 }
 
